@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ADDE8391AC55EB80042E694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE8381AC55EB80042E694 /* AppDelegate.swift */; };
+		6ADDE83C1AC55EB80042E694 /* SendImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE83A1AC55EB80042E694 /* SendImage.xcdatamodeld */; };
+		6ADDE83E1AC55EB80042E694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE83D1AC55EB80042E694 /* ViewController.swift */; };
+		6ADDE8411AC55EB80042E694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDE83F1AC55EB80042E694 /* Main.storyboard */; };
+		6ADDE8431AC55EB80042E694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDE8421AC55EB80042E694 /* Images.xcassets */; };
+		6ADDE8461AC55EB80042E694 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDE8441AC55EB80042E694 /* LaunchScreen.xib */; };
+		6ADDE8521AC55EB80042E694 /* SendImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE8511AC55EB80042E694 /* SendImageTests.swift */; };
+		6ADDE8671AC562CA0042E694 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE8661AC562CA0042E694 /* InterfaceController.swift */; };
+		6ADDE8691AC562CA0042E694 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE8681AC562CA0042E694 /* NotificationController.swift */; };
+		6ADDE86B1AC562CA0042E694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDE86A1AC562CA0042E694 /* Images.xcassets */; };
+		6ADDE86F1AC562CA0042E694 /* SendImage WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDE86E1AC562CA0042E694 /* SendImage WatchKit App.app */; };
+		6ADDE8771AC562CA0042E694 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDE8751AC562CA0042E694 /* Interface.storyboard */; };
+		6ADDE8791AC562CA0042E694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDE8781AC562CA0042E694 /* Images.xcassets */; };
+		6ADDE87C1AC562CA0042E694 /* SendImage WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6ADDE8611AC562CA0042E694 /* SendImage WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6ADDE8901AC564340042E694 /* WatchCoreDataProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADDE88F1AC564340042E694 /* WatchCoreDataProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADDE8961AC564340042E694 /* WatchCoreDataProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDE88B1AC564340042E694 /* WatchCoreDataProxy.framework */; };
+		6ADDE89F1AC564340042E694 /* WatchCoreDataProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE89E1AC564340042E694 /* WatchCoreDataProxyTests.swift */; };
+		6ADDE8A21AC564340042E694 /* WatchCoreDataProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDE88B1AC564340042E694 /* WatchCoreDataProxy.framework */; };
+		6ADDE8A31AC564340042E694 /* WatchCoreDataProxy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDE88B1AC564340042E694 /* WatchCoreDataProxy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6ADDE8AD1AC5647F0042E694 /* WatchModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE8AB1AC5647F0042E694 /* WatchModel.xcdatamodeld */; };
+		6ADDE8AF1AC56AC40042E694 /* WatchCoreDataProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDE8AE1AC56AC40042E694 /* WatchCoreDataProxy.swift */; };
+		6ADDE8B01AC8EEC00042E694 /* WatchCoreDataProxy.swift in Headers */ = {isa = PBXBuildFile; fileRef = 6ADDE8AE1AC56AC40042E694 /* WatchCoreDataProxy.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADDE8B61AC8F64B0042E694 /* WatchCoreDataProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADDE88B1AC564340042E694 /* WatchCoreDataProxy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ADDE84C1AC55EB80042E694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADDE82B1AC55EB70042E694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADDE8321AC55EB70042E694;
+			remoteInfo = SendImage;
+		};
+		6ADDE8701AC562CA0042E694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADDE82B1AC55EB70042E694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADDE86D1AC562CA0042E694;
+			remoteInfo = "SendImage WatchKit App";
+		};
+		6ADDE87A1AC562CA0042E694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADDE82B1AC55EB70042E694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADDE8601AC562CA0042E694;
+			remoteInfo = "SendImage WatchKit Extension";
+		};
+		6ADDE8971AC564340042E694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADDE82B1AC55EB70042E694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADDE88A1AC564340042E694;
+			remoteInfo = WatchCoreDataProxy;
+		};
+		6ADDE8991AC564340042E694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADDE82B1AC55EB70042E694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADDE8321AC55EB70042E694;
+			remoteInfo = SendImage;
+		};
+		6ADDE8A01AC564340042E694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADDE82B1AC55EB70042E694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADDE88A1AC564340042E694;
+			remoteInfo = WatchCoreDataProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6ADDE8831AC562CA0042E694 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6ADDE87C1AC562CA0042E694 /* SendImage WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8A71AC564340042E694 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6ADDE8A31AC564340042E694 /* WatchCoreDataProxy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6ADDE8331AC55EB70042E694 /* SendImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDE8371AC55EB80042E694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDE8381AC55EB80042E694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ADDE83B1AC55EB80042E694 /* SendImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SendImage.xcdatamodel; sourceTree = "<group>"; };
+		6ADDE83D1AC55EB80042E694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ADDE8401AC55EB80042E694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADDE8421AC55EB80042E694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ADDE8451AC55EB80042E694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6ADDE84B1AC55EB80042E694 /* SendImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDE8501AC55EB80042E694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDE8511AC55EB80042E694 /* SendImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendImageTests.swift; sourceTree = "<group>"; };
+		6ADDE8611AC562CA0042E694 /* SendImage WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SendImage WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDE8641AC562CA0042E694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDE8651AC562CA0042E694 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6ADDE8661AC562CA0042E694 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6ADDE8681AC562CA0042E694 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6ADDE86A1AC562CA0042E694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ADDE86E1AC562CA0042E694 /* SendImage WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SendImage WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDE8741AC562CA0042E694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDE8761AC562CA0042E694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6ADDE8781AC562CA0042E694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ADDE8841AC562E50042E694 /* SendImage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SendImage.entitlements; sourceTree = "<group>"; };
+		6ADDE8851AC563000042E694 /* SendImage WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SendImage WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		6ADDE88B1AC564340042E694 /* WatchCoreDataProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchCoreDataProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDE88E1AC564340042E694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDE88F1AC564340042E694 /* WatchCoreDataProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchCoreDataProxy.h; sourceTree = "<group>"; };
+		6ADDE8951AC564340042E694 /* WatchCoreDataProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchCoreDataProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDE89D1AC564340042E694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDE89E1AC564340042E694 /* WatchCoreDataProxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCoreDataProxyTests.swift; sourceTree = "<group>"; };
+		6ADDE8AC1AC5647F0042E694 /* WatchModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchModel.xcdatamodel; sourceTree = "<group>"; };
+		6ADDE8AE1AC56AC40042E694 /* WatchCoreDataProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchCoreDataProxy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ADDE8301AC55EB70042E694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8A21AC564340042E694 /* WatchCoreDataProxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8481AC55EB80042E694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE85E1AC562CA0042E694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8B61AC8F64B0042E694 /* WatchCoreDataProxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8871AC564340042E694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8921AC564340042E694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8961AC564340042E694 /* WatchCoreDataProxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ADDE82A1AC55EB70042E694 = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8351AC55EB70042E694 /* SendImage */,
+				6ADDE84E1AC55EB80042E694 /* SendImageTests */,
+				6ADDE8621AC562CA0042E694 /* SendImage WatchKit Extension */,
+				6ADDE8721AC562CA0042E694 /* SendImage WatchKit App */,
+				6ADDE88C1AC564340042E694 /* WatchCoreDataProxy */,
+				6ADDE89B1AC564340042E694 /* WatchCoreDataProxyTests */,
+				6ADDE8341AC55EB70042E694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ADDE8341AC55EB70042E694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8331AC55EB70042E694 /* SendImage.app */,
+				6ADDE84B1AC55EB80042E694 /* SendImageTests.xctest */,
+				6ADDE8611AC562CA0042E694 /* SendImage WatchKit Extension.appex */,
+				6ADDE86E1AC562CA0042E694 /* SendImage WatchKit App.app */,
+				6ADDE88B1AC564340042E694 /* WatchCoreDataProxy.framework */,
+				6ADDE8951AC564340042E694 /* WatchCoreDataProxyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ADDE8351AC55EB70042E694 /* SendImage */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8841AC562E50042E694 /* SendImage.entitlements */,
+				6ADDE8381AC55EB80042E694 /* AppDelegate.swift */,
+				6ADDE83D1AC55EB80042E694 /* ViewController.swift */,
+				6ADDE83F1AC55EB80042E694 /* Main.storyboard */,
+				6ADDE8421AC55EB80042E694 /* Images.xcassets */,
+				6ADDE8441AC55EB80042E694 /* LaunchScreen.xib */,
+				6ADDE83A1AC55EB80042E694 /* SendImage.xcdatamodeld */,
+				6ADDE8361AC55EB70042E694 /* Supporting Files */,
+			);
+			path = SendImage;
+			sourceTree = "<group>";
+		};
+		6ADDE8361AC55EB70042E694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8371AC55EB80042E694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADDE84E1AC55EB80042E694 /* SendImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8511AC55EB80042E694 /* SendImageTests.swift */,
+				6ADDE84F1AC55EB80042E694 /* Supporting Files */,
+			);
+			path = SendImageTests;
+			sourceTree = "<group>";
+		};
+		6ADDE84F1AC55EB80042E694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8501AC55EB80042E694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADDE8621AC562CA0042E694 /* SendImage WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8851AC563000042E694 /* SendImage WatchKit Extension.entitlements */,
+				6ADDE8661AC562CA0042E694 /* InterfaceController.swift */,
+				6ADDE8681AC562CA0042E694 /* NotificationController.swift */,
+				6ADDE86A1AC562CA0042E694 /* Images.xcassets */,
+				6ADDE8631AC562CA0042E694 /* Supporting Files */,
+			);
+			path = "SendImage WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6ADDE8631AC562CA0042E694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8641AC562CA0042E694 /* Info.plist */,
+				6ADDE8651AC562CA0042E694 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADDE8721AC562CA0042E694 /* SendImage WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8751AC562CA0042E694 /* Interface.storyboard */,
+				6ADDE8781AC562CA0042E694 /* Images.xcassets */,
+				6ADDE8731AC562CA0042E694 /* Supporting Files */,
+			);
+			path = "SendImage WatchKit App";
+			sourceTree = "<group>";
+		};
+		6ADDE8731AC562CA0042E694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE8741AC562CA0042E694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADDE88C1AC564340042E694 /* WatchCoreDataProxy */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE88F1AC564340042E694 /* WatchCoreDataProxy.h */,
+				6ADDE88D1AC564340042E694 /* Supporting Files */,
+				6ADDE8AB1AC5647F0042E694 /* WatchModel.xcdatamodeld */,
+				6ADDE8AE1AC56AC40042E694 /* WatchCoreDataProxy.swift */,
+			);
+			path = WatchCoreDataProxy;
+			sourceTree = "<group>";
+		};
+		6ADDE88D1AC564340042E694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE88E1AC564340042E694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADDE89B1AC564340042E694 /* WatchCoreDataProxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE89E1AC564340042E694 /* WatchCoreDataProxyTests.swift */,
+				6ADDE89C1AC564340042E694 /* Supporting Files */,
+			);
+			path = WatchCoreDataProxyTests;
+			sourceTree = "<group>";
+		};
+		6ADDE89C1AC564340042E694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDE89D1AC564340042E694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6ADDE8881AC564340042E694 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8B01AC8EEC00042E694 /* WatchCoreDataProxy.swift in Headers */,
+				6ADDE8901AC564340042E694 /* WatchCoreDataProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6ADDE8321AC55EB70042E694 /* SendImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDE8551AC55EB80042E694 /* Build configuration list for PBXNativeTarget "SendImage" */;
+			buildPhases = (
+				6ADDE82F1AC55EB70042E694 /* Sources */,
+				6ADDE8301AC55EB70042E694 /* Frameworks */,
+				6ADDE8311AC55EB70042E694 /* Resources */,
+				6ADDE8831AC562CA0042E694 /* Embed App Extensions */,
+				6ADDE8A71AC564340042E694 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADDE87B1AC562CA0042E694 /* PBXTargetDependency */,
+				6ADDE8A11AC564340042E694 /* PBXTargetDependency */,
+			);
+			name = SendImage;
+			productName = SendImage;
+			productReference = 6ADDE8331AC55EB70042E694 /* SendImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ADDE84A1AC55EB80042E694 /* SendImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDE8581AC55EB80042E694 /* Build configuration list for PBXNativeTarget "SendImageTests" */;
+			buildPhases = (
+				6ADDE8471AC55EB80042E694 /* Sources */,
+				6ADDE8481AC55EB80042E694 /* Frameworks */,
+				6ADDE8491AC55EB80042E694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADDE84D1AC55EB80042E694 /* PBXTargetDependency */,
+			);
+			name = SendImageTests;
+			productName = SendImageTests;
+			productReference = 6ADDE84B1AC55EB80042E694 /* SendImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ADDE8601AC562CA0042E694 /* SendImage WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDE8801AC562CA0042E694 /* Build configuration list for PBXNativeTarget "SendImage WatchKit Extension" */;
+			buildPhases = (
+				6ADDE85D1AC562CA0042E694 /* Sources */,
+				6ADDE85E1AC562CA0042E694 /* Frameworks */,
+				6ADDE85F1AC562CA0042E694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADDE8711AC562CA0042E694 /* PBXTargetDependency */,
+			);
+			name = "SendImage WatchKit Extension";
+			productName = "SendImage WatchKit Extension";
+			productReference = 6ADDE8611AC562CA0042E694 /* SendImage WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		6ADDE86D1AC562CA0042E694 /* SendImage WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDE87D1AC562CA0042E694 /* Build configuration list for PBXNativeTarget "SendImage WatchKit App" */;
+			buildPhases = (
+				6ADDE86C1AC562CA0042E694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SendImage WatchKit App";
+			productName = "SendImage WatchKit App";
+			productReference = 6ADDE86E1AC562CA0042E694 /* SendImage WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		6ADDE88A1AC564340042E694 /* WatchCoreDataProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDE8A41AC564340042E694 /* Build configuration list for PBXNativeTarget "WatchCoreDataProxy" */;
+			buildPhases = (
+				6ADDE8861AC564340042E694 /* Sources */,
+				6ADDE8871AC564340042E694 /* Frameworks */,
+				6ADDE8881AC564340042E694 /* Headers */,
+				6ADDE8891AC564340042E694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchCoreDataProxy;
+			productName = WatchCoreDataProxy;
+			productReference = 6ADDE88B1AC564340042E694 /* WatchCoreDataProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6ADDE8941AC564340042E694 /* WatchCoreDataProxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDE8A81AC564340042E694 /* Build configuration list for PBXNativeTarget "WatchCoreDataProxyTests" */;
+			buildPhases = (
+				6ADDE8911AC564340042E694 /* Sources */,
+				6ADDE8921AC564340042E694 /* Frameworks */,
+				6ADDE8931AC564340042E694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADDE8981AC564340042E694 /* PBXTargetDependency */,
+				6ADDE89A1AC564340042E694 /* PBXTargetDependency */,
+			);
+			name = WatchCoreDataProxyTests;
+			productName = WatchCoreDataProxyTests;
+			productReference = 6ADDE8951AC564340042E694 /* WatchCoreDataProxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ADDE82B1AC55EB70042E694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "KOHAMA TAKUYA";
+				TargetAttributes = {
+					6ADDE8321AC55EB70042E694 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RUR3CZG488;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6ADDE84A1AC55EB80042E694 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6ADDE8321AC55EB70042E694;
+					};
+					6ADDE8601AC562CA0042E694 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RUR3CZG488;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6ADDE86D1AC562CA0042E694 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RUR3CZG488;
+					};
+					6ADDE88A1AC564340042E694 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RUR3CZG488;
+					};
+					6ADDE8941AC564340042E694 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6ADDE8321AC55EB70042E694;
+					};
+				};
+			};
+			buildConfigurationList = 6ADDE82E1AC55EB70042E694 /* Build configuration list for PBXProject "SendImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ADDE82A1AC55EB70042E694;
+			productRefGroup = 6ADDE8341AC55EB70042E694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADDE8321AC55EB70042E694 /* SendImage */,
+				6ADDE84A1AC55EB80042E694 /* SendImageTests */,
+				6ADDE8601AC562CA0042E694 /* SendImage WatchKit Extension */,
+				6ADDE86D1AC562CA0042E694 /* SendImage WatchKit App */,
+				6ADDE88A1AC564340042E694 /* WatchCoreDataProxy */,
+				6ADDE8941AC564340042E694 /* WatchCoreDataProxyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ADDE8311AC55EB70042E694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8411AC55EB80042E694 /* Main.storyboard in Resources */,
+				6ADDE8461AC55EB80042E694 /* LaunchScreen.xib in Resources */,
+				6ADDE8431AC55EB80042E694 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8491AC55EB80042E694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE85F1AC562CA0042E694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE86F1AC562CA0042E694 /* SendImage WatchKit App.app in Resources */,
+				6ADDE86B1AC562CA0042E694 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE86C1AC562CA0042E694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8771AC562CA0042E694 /* Interface.storyboard in Resources */,
+				6ADDE8791AC562CA0042E694 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8891AC564340042E694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8931AC564340042E694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ADDE82F1AC55EB70042E694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE83E1AC55EB80042E694 /* ViewController.swift in Sources */,
+				6ADDE8391AC55EB80042E694 /* AppDelegate.swift in Sources */,
+				6ADDE83C1AC55EB80042E694 /* SendImage.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8471AC55EB80042E694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8521AC55EB80042E694 /* SendImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE85D1AC562CA0042E694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8691AC562CA0042E694 /* NotificationController.swift in Sources */,
+				6ADDE8671AC562CA0042E694 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8861AC564340042E694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE8AD1AC5647F0042E694 /* WatchModel.xcdatamodeld in Sources */,
+				6ADDE8AF1AC56AC40042E694 /* WatchCoreDataProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDE8911AC564340042E694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDE89F1AC564340042E694 /* WatchCoreDataProxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ADDE84D1AC55EB80042E694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADDE8321AC55EB70042E694 /* SendImage */;
+			targetProxy = 6ADDE84C1AC55EB80042E694 /* PBXContainerItemProxy */;
+		};
+		6ADDE8711AC562CA0042E694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADDE86D1AC562CA0042E694 /* SendImage WatchKit App */;
+			targetProxy = 6ADDE8701AC562CA0042E694 /* PBXContainerItemProxy */;
+		};
+		6ADDE87B1AC562CA0042E694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADDE8601AC562CA0042E694 /* SendImage WatchKit Extension */;
+			targetProxy = 6ADDE87A1AC562CA0042E694 /* PBXContainerItemProxy */;
+		};
+		6ADDE8981AC564340042E694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADDE88A1AC564340042E694 /* WatchCoreDataProxy */;
+			targetProxy = 6ADDE8971AC564340042E694 /* PBXContainerItemProxy */;
+		};
+		6ADDE89A1AC564340042E694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADDE8321AC55EB70042E694 /* SendImage */;
+			targetProxy = 6ADDE8991AC564340042E694 /* PBXContainerItemProxy */;
+		};
+		6ADDE8A11AC564340042E694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADDE88A1AC564340042E694 /* WatchCoreDataProxy */;
+			targetProxy = 6ADDE8A01AC564340042E694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ADDE83F1AC55EB80042E694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDE8401AC55EB80042E694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ADDE8441AC55EB80042E694 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDE8451AC55EB80042E694 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6ADDE8751AC562CA0042E694 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDE8761AC562CA0042E694 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ADDE8531AC55EB80042E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ADDE8541AC55EB80042E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ADDE8561AC55EB80042E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SendImage/SendImage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = SendImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6ADDE8571AC55EB80042E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SendImage/SendImage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = SendImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6ADDE8591AC55EB80042E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendImage.app/SendImage";
+			};
+			name = Debug;
+		};
+		6ADDE85A1AC55EB80042E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendImage.app/SendImage";
+			};
+			name = Release;
+		};
+		6ADDE87E1AC562CA0042E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SendImage_WatchKit_Extension;
+				INFOPLIST_FILE = "SendImage WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		6ADDE87F1AC562CA0042E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = SendImage_WatchKit_Extension;
+				INFOPLIST_FILE = "SendImage WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		6ADDE8811AC562CA0042E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SendImage WatchKit Extension/SendImage WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SendImage WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6ADDE8821AC562CA0042E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SendImage WatchKit Extension/SendImage WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "SendImage WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6ADDE8A51AC564340042E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchCoreDataProxy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ADDE8A61AC564340042E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WatchCoreDataProxy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ADDE8A91AC564340042E694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchCoreDataProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendImage.app/SendImage";
+			};
+			name = Debug;
+		};
+		6ADDE8AA1AC564340042E694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchCoreDataProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendImage.app/SendImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ADDE82E1AC55EB70042E694 /* Build configuration list for PBXProject "SendImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDE8531AC55EB80042E694 /* Debug */,
+				6ADDE8541AC55EB80042E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDE8551AC55EB80042E694 /* Build configuration list for PBXNativeTarget "SendImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDE8561AC55EB80042E694 /* Debug */,
+				6ADDE8571AC55EB80042E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDE8581AC55EB80042E694 /* Build configuration list for PBXNativeTarget "SendImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDE8591AC55EB80042E694 /* Debug */,
+				6ADDE85A1AC55EB80042E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDE87D1AC562CA0042E694 /* Build configuration list for PBXNativeTarget "SendImage WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDE87E1AC562CA0042E694 /* Debug */,
+				6ADDE87F1AC562CA0042E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDE8801AC562CA0042E694 /* Build configuration list for PBXNativeTarget "SendImage WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDE8811AC562CA0042E694 /* Debug */,
+				6ADDE8821AC562CA0042E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDE8A41AC564340042E694 /* Build configuration list for PBXNativeTarget "WatchCoreDataProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDE8A51AC564340042E694 /* Debug */,
+				6ADDE8A61AC564340042E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDE8A81AC564340042E694 /* Build configuration list for PBXNativeTarget "WatchCoreDataProxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDE8A91AC564340042E694 /* Debug */,
+				6ADDE8AA1AC564340042E694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ADDE83A1AC55EB80042E694 /* SendImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ADDE83B1AC55EB80042E694 /* SendImage.xcdatamodel */,
+			);
+			currentVersion = 6ADDE83B1AC55EB80042E694 /* SendImage.xcdatamodel */;
+			path = SendImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6ADDE8AB1AC5647F0042E694 /* WatchModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ADDE8AC1AC5647F0042E694 /* WatchModel.xcdatamodel */,
+			);
+			currentVersion = 6ADDE8AC1AC5647F0042E694 /* WatchModel.xcdatamodel */;
+			path = WatchModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ADDE82B1AC55EB70042E694 /* Project object */;
+}

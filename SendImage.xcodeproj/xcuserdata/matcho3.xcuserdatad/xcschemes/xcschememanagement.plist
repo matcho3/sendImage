@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Notification - SendImage WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SendImage WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SendImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>WatchCoreDataProxy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6ADDE8321AC55EB70042E694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADDE84A1AC55EB80042E694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADDE86D1AC562CA0042E694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADDE88A1AC564340042E694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ADDE8941AC564340042E694</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6ADDE86D1AC562CA0042E694"
+               BuildableName = "SendImage WatchKit App.app"
+               BlueprintName = "SendImage WatchKit App"
+               ReferencedContainer = "container:SendImage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6ADDE8601AC562CA0042E694"
+               BuildableName = "SendImage WatchKit Extension.appex"
+               BlueprintName = "SendImage WatchKit Extension"
+               ReferencedContainer = "container:SendImage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6ADDE8321AC55EB70042E694"
+               BuildableName = "SendImage.app"
+               BlueprintName = "SendImage"
+               ReferencedContainer = "container:SendImage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6ADDE8941AC564340042E694"
+               BuildableName = "WatchCoreDataProxyTests.xctest"
+               BlueprintName = "WatchCoreDataProxyTests"
+               ReferencedContainer = "container:SendImage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6ADDE8941AC564340042E694"
+               BuildableName = "WatchCoreDataProxyTests.xctest"
+               BlueprintName = "WatchCoreDataProxyTests"
+               ReferencedContainer = "container:SendImage.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6ADDE86D1AC562CA0042E694"
+            BuildableName = "SendImage WatchKit App.app"
+            BlueprintName = "SendImage WatchKit App"
+            ReferencedContainer = "container:SendImage.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "SendImage WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SendImage">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6ADDE86D1AC562CA0042E694"
+            BuildableName = "SendImage WatchKit App.app"
+            BlueprintName = "SendImage WatchKit App"
+            ReferencedContainer = "container:SendImage.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6ADDE86D1AC562CA0042E694"
+            BuildableName = "SendImage WatchKit App.app"
+            BlueprintName = "SendImage WatchKit App"
+            ReferencedContainer = "container:SendImage.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SendImage">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6ADDE86D1AC562CA0042E694"
+            BuildableName = "SendImage WatchKit App.app"
+            BlueprintName = "SendImage WatchKit App"
+            ReferencedContainer = "container:SendImage.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6ADDE86D1AC562CA0042E694"
+            BuildableName = "SendImage WatchKit App.app"
+            BlueprintName = "SendImage WatchKit App"
+            ReferencedContainer = "container:SendImage.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
